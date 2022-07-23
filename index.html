@@ -1,0 +1,40 @@
+<!-- First Page for  Employement Appraisal site -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADS Private Limited</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <h1 id="company-title"> <img src="/project1/android-chrome-512x512.png" alt="Logo"><div>ADS PRIVATE LIMITED</div></h1>
+    <div id="navbar">
+       <a href="Home.html">Home</a>
+       <a href="Contribute.html">Contribute</a>
+       <a href="About.html">About Us</a>
+       <a href="Contact.html">Contact us</a>
+    </div>
+    <div id="slide">
+    <marquee direction="left">Employee Login Page</marquee></div>
+    <div id="signin">
+        <h3>SIGN IN</h3>
+        <form action="form.js">
+            <div id="contaner">
+            USER ID<input type="text" name ="userId" id="user"></div>
+            <p id="message0" class="message"></p>
+            <div id="contaner2">  
+                 PASSWORD<input type="password" name ="Password" class="Password"><br>
+                 <p id="message1" class="message"></p>
+                 SECURITY PIN<input type="password" name ="pin" id="pin" class="Password">
+                 <p id="securityPin">SECURITY PIN:</p>
+                 <p id="message2" class="message"></p>
+                </div>
+            </form>
+                <button class="Login"onclick="tryIt();Password_Validation();UserName_Validation()">Sign In</button>
+                <button class="Login"onclick="Load()">Sign up</a></button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
