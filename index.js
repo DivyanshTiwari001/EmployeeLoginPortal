@@ -16,7 +16,6 @@ function Password_Validation(){
         }
         catch(err){
             document.getElementById("message1").innerHTML=err;
-            document.getElementById("securityPin").innerHTML=text+Math.floor(Math.random()*10000+10000*i);
             k=false;
         }
     }
@@ -28,7 +27,6 @@ function UserName_Validation(){
     }
     else{
         document.getElementById("message0").innerHTML="Please Enter Correct and Valid User Name";
-        document.getElementById("securityPin").innerHTML=text+Math.floor(Math.random()*10000+10000*i);
         l=false;
     }
 }
