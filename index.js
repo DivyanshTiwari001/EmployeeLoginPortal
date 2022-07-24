@@ -43,7 +43,8 @@ function tryIt(){
 }
     catch(err){
         document.getElementById("message2").innerHTML=err;
-}
+        
+    }
 }
 }
 function Load(){
