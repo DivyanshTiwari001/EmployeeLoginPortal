@@ -36,12 +36,14 @@ function tryIt(){
         window.open("index2.html");
      }
     else{try{
+    b=Math.floor(Math.random()*10000+10000*i)
+    document.getElementById("securityPin").innerHTML=text+b;
     if(isNaN(a)) throw "Please Enter A valid Pin";
     if(a!=b) throw "Wrong PIN";
 }
     catch(err){
         document.getElementById("message2").innerHTML=err;
-        document.getElementById("securityPin").innerHTML=text+Math.floor(Math.random()*10000+10000*i);
+        
     }
 }
 }
